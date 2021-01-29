@@ -1,0 +1,18 @@
+#import <stdio.h>
+#import <locale.h>
+void main() {
+    setlocale(LC_ALL, "Portuguese");
+    char nome;
+    int idade;
+    float peso;
+    printf("Qual é o seu nome? ");
+    gets(nome);
+    printf("Qual é sua idade? ");
+    scanf("%i", idade);
+    printf("Qual é o seu peso? ");
+    scanf("%f", idade);
+    printf("------ PROCESSANDO ------\n");
+    printf("Muito prazer, %c. Você tem %i anos e pesa %.1fKg correto?");
+    printf("\nFIM");
+
+}
